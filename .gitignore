@@ -1,0 +1,12 @@
+# Local environment files and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Generated training data and model outputs
+data/disease/cache/
+data/disease/train.jsonl
+data/disease/validation.jsonl
+data/disease/test.jsonl
+results/tinyllama_disease/
